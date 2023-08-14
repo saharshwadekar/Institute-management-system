@@ -1,0 +1,40 @@
+<div class="block w-full overflow-x-auto">
+    <!-- component -->
+    <canvas class="p-1 ml-40 mr-40" id="chartPie" style="display: block; box-sizing: border-box; height: 424px; width: 424px;" width="424" height="424"></canvas>
+
+
+    <!-- Required chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Chart pie -->
+    <script>
+    const dataPie = {
+        labels: ["Computer Engineering", "Information Technology", "Data Science"],
+        datasets: [
+        {
+            label: "",
+            data: [300, 50, 100],
+            backgroundColor: [
+            "#164B60",
+            "#435B66",
+            "#1B6B93",
+            ],
+            hoverOffset: 4,
+        },
+        ],
+    };
+
+    const configPie = {
+        type: "pie",
+        data: dataPie,
+        options: {},
+    };
+
+    var chartBar = new Chart(
+        document.getElementById("chartPie"),
+        configPie
+    );
+    </script>
+
+
+</div>

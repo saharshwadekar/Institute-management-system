@@ -15,8 +15,8 @@
         <div class="content">
             <h2 class="logo"><i class='bx bxs-book-reader'></i>IMS</h2>
             <div class="text-sci">
-                <h2>Welcome Back! <br><span></span></h2>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <h2>Welcome Back!</h2>
+                <p>One-stop solution administration and academic management!</p>
                 
             </div>
         </div>
